@@ -1,0 +1,55 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  background: indianred;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+
+}
+
+.flex.fill {
+  height: 100%;
+}
+
+.flex.center {
+  justify-content: center;
+}
+
+.container {
+  background: indianred;
+  width: 1024px;
+  height: 1024px;
+  touch-action: none;
+  position: relative;
+  will-change: transform;
+}
+
+.content {
+  height: 100%;
+  transform: translateZ(0)
+}
+
+.container img {
+  object-fit: cover;
+  transform: translateZ(0);
+  max-width: 100%;
+}
+
+
