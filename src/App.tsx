@@ -98,8 +98,7 @@ export default function App() {
         <animated.div className={"container"} ref={ref} style={style}>
           <div className='content' ref={contentRef}>
             <img onLoad={onImgLoad} draggable={false}  
-            src="http://10.0.0.132:3001/static/media/paulding-county.724707dd2b35566e9c37.png" 
-            // src={require("./1paulding-screenshot.jpg")}
+            src={require("./paulding-county.png")}
             />
           </div>
         </animated.div>
